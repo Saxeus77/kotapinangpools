@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kota Pinang Pools</title>
+  <link rel="stylesheet" href="style.css" />
+<link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo.png" alt="Kota Pinang Pools Logo" class="logo" />
+      <h1>KOTA PINANG POOLS</h1>
+    </header>
+    
+    <main>
+      <h2 id="date">Result</h2>
+      <div class="results">
+        <div class="prize">
+          <span>1st Prize</span>
+          <div id="prize1" class="numbers"></div>
+        </div>
+        <div class="prize">
+          <span>2nd Prize</span>
+          <div id="prize2" class="numbers"></div>
+        </div>
+        <div class="prize">
+          <span>3rd Prize</span>
+          <div id="prize3" class="numbers"></div>
+        </div>
+      </div>
+      <button onclick="generateNumbers()">Generate</button>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
